@@ -13,16 +13,15 @@ class ContentRating extends Component {
             likes: prevState.likes +1
         }));
     },
-handleDislike: () => {
-    this.setState((prevState) => ({
-        likes: prevState.dislikes +1
+        handleDislike: () => {
+        this.setState((prevState) => ({
+            likes: prevState.dislikes +1
     }));
 }
 };
-  }
+}
 
-
-  render() {
+render() {
     return (
      <>
      <h1>Content Rating App</h1>
